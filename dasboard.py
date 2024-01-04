@@ -23,7 +23,17 @@ df=df.sort_values("Date")
 df["Month"] = df["Date"].apply(lambda x: str(x.year) + "-" + str(x.month))
 month = st.sidebar.selectbox("Selecione o mês desejado", df["Month"].unique())
 
+
+# filtrando os dados
 df_filtered = df[df["Month"] == month]
 df_filtered
+
+# Criando o layout
+
+col1, col2 = st.columns(2)
+col3, col4, col5 = st.columns(3)
+
+fig_date = px.bar(df_filtered, x="Date", y="Total", title="Faturamento por dia")
+col1.plotly_chart(fig_date)
 
 

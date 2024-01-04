@@ -2,8 +2,8 @@
 Criando Dashboard em Python
 
 
-# comando básico da biblioteca streamlit
-# python -m streamlit run dasboard.py
+# Comando básico da biblioteca streamlit
+# Python -m streamlit run dasboard.py
 
 # Exibindo os dados do CSV
 
@@ -12,3 +12,6 @@ Criando Dashboard em Python
 # Criando uma sidebar e filtrando os dados pelo meses
 
 ![Alt text](image-1.png)
+
+# Gráfico que exibi o faturamento por dia 
+![Alt text](image-2.png)
