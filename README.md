@@ -18,3 +18,7 @@ Criando Dashboard em Python
 
 # Exibindo o faturamento por filiais
 ![Alt text](image-3.png)
+
+# Exibir  o Faturamento por tipo de produto
+
+![Alt text](image-4.png)
