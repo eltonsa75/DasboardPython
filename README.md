@@ -28,3 +28,6 @@ Criando Dashboard em Python
 
 # Exibir o faturamento por tipo de pagamento
 ![Alt text](image-6.png)
+
+# Exibir a avaliação total 
+![Alt text](image-7.png)
