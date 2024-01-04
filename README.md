@@ -40,7 +40,7 @@ Exibir o faturamento por tipo de pagamento
 Exibir a avaliação total 
 ![Alt text](image-7.png)
 
-**Fonte: Jorge Santana do curso de laravel*
+**Fonte: Asimov Academy - Criando Dasboard com Python*
 
 <div align="center">
 
