@@ -25,3 +25,6 @@ Criando Dashboard em Python
 
 # Exibir o Faturamento por Filial
 ![Alt text](image-5.png)
+
+# Exibir o faturamento por tipo de pagamento
+![Alt text](image-6.png)

@@ -44,8 +44,17 @@ col2.plotly_chart(fig_prod)
 
 
 city_total = df_filtered.groupby("City")["Total"].sum().reset_index()
-fig_date = px.bar(df_filtered, x="City", y="Total", 
+fig_city = px.bar(df_filtered, x="City", y="Total", 
                   title="Faturamento por filial")
-col1.plotly_chart(fig_date)
+col3.plotly_chart(fig_city)
 
+
+fig_kind = px.pie(df_filtered, values="Total", names="Payment", 
+                  title="Faturamento por tipo de pagamento")
+col4.plotly_chart(fig_kind)
+
+city_total = df_filtered.groupby("City")[["Rating"]].mean().reset_index()
+fig_rating = px.bar(df_filtered, y="Rating", x="City", 
+                  title="Avaliação")
+col5.plotly_chart(fig_rating)
 
