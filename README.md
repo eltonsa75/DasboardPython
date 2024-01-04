@@ -1,4 +1,10 @@
-# Dasboard Python
+# Dasboard Python usando as bilbiotecas 
+# import streamlit as st
+# import pandas as pd
+
+# criando os graficos com o plotly
+# import plotly.express as px
+
 Criando Dashboard em Python
 
 
