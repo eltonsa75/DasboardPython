@@ -32,7 +32,7 @@ Exibir  o Faturamento por tipo de Produto
 ![Alt text](image-4.png)
 
 Exibir o Faturamento por Filial
-![Alt text](image-5.png)
+![Alt text](image-8.png)
 
 Exibir o faturamento por tipo de pagamento
 ![Alt text](image-6.png)
