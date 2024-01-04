@@ -43,3 +43,9 @@ fig_prod = px.bar(df_filtered, x="Date", y="Product line",
 col2.plotly_chart(fig_prod)
 
 
+city_total = df_filtered.groupby("City")["Total"].sum().reset_index()
+fig_date = px.bar(df_filtered, x="City", y="Total", 
+                  title="Faturamento por filial")
+col1.plotly_chart(fig_date)
+
+

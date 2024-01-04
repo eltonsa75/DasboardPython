@@ -16,9 +16,12 @@ Criando Dashboard em Python
 # Gráfico que exibi o faturamento por dia 
 ![Alt text](image-2.png)
 
-# Exibindo o faturamento por filiais
+# Exibindo o faturamento por Filial
 ![Alt text](image-3.png)
 
-# Exibir  o Faturamento por tipo de produto
+# Exibir  o Faturamento por tipo de Produto
 
 ![Alt text](image-4.png)
+
+# Exibir o Faturamento por Filial
+![Alt text](image-5.png)
